@@ -13,7 +13,6 @@ This is a Streamlit-based web application for predicting customer churn using th
 - [Usage](#usage)
 - [Model Details](#model-details)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -54,3 +53,29 @@ RandomForestClassifier_best_model.joblib
 XGBClassifier_best_model.joblib
 
 5-Run the Streamlit app:
+
+
+Usage
+Load the application:
+The app will be accessible in your browser after running the Streamlit command.
+
+Input Features:
+
+Select the customer features using the provided options.
+Choose a machine learning model for prediction.
+Predict Churn:
+
+Click the "Predict" button to see whether the customer is predicted to stay or leave.
+Model Details
+The app supports the following machine learning models:
+
+Logistic Regression
+K-Nearest Neighbors
+Decision Tree
+Support Vector Machine
+Random Forest
+XGBoost
+These models were pre-trained on the Telco Customer Churn dataset and saved using the joblib library.
+
+Contributing
+If you wish to contribute to this project, feel free to submit a pull request. Please ensure your code is well-documented and adheres to the existing code style.
